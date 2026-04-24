@@ -1,0 +1,65 @@
+/* Barra de navegação fixa e horizontal */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Fundo escuro para contraste */
+    color: #fff; /* Texto claro */
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around; /* Itens lado a lado */
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espaçamento entre itens */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700; /* Destaque no hover */
+}
+
+/* Corpo da página com margem para compensar a barra fixa */
+body {
+    margin-top: 60px; /* Ajuste conforme a altura da nav */
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #333; /* Texto escuro para contraste */
+    font-family: Arial, sans-serif;
+}
+
+/* Layout para foto e texto lado a lado */
+.perfil {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.perfil img {
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.texto-perfil {
+    text-align: justify;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: initial;
+}
