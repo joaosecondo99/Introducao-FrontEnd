@@ -1,4 +1,8 @@
 /* Barra de navegação fixa e horizontal */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 nav {
     position: fixed;
     top: 0;
