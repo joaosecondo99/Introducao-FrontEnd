@@ -67,3 +67,7 @@ html {
 section {
     scroll-margin-top: initial;
 }
+
+.whats-logo {
+    width: 50px;
+}
